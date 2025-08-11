@@ -50,8 +50,8 @@ export default function Home() {
         <h1 className="font-bold text-3xl py-5">About</h1>
         <p>Cybersecurity enthusiast with hands-on experience in threat detection, SOC monitoring, and bug bounties for threat identification. Strong foundation in penetration testing, network forensics, and secure systems development. Passionate about solving real-world security challenges through code and automation.</p>
         </div>
-        <div className="flex flex-col gap-5">
-        <h1 className="font-bold text-3xl py-2">Work Experience</h1>
+        <div className="flex flex-col gap-3">
+        <h1 className="font-bold text-3xl py-3">Work Experience</h1>
         <div>
           <div className="flex align-middle gap-2 items-center">
           <h1 className="text-xl font-bold">Presidet@CodeX Club</h1>
@@ -74,8 +74,8 @@ export default function Home() {
         <p>Identified potential security threats and automated the identification of suspicious activities. Engineered and deployed machine learning models that increased predictive accuracy by 30%, utilizing Python libraries such as TensorFlow and scikit-learn.</p>
         </div>
         </div>
-        <div className="flex flex-col gap-5">
-        <h1 className="font-bold text-3xl py-2">Education</h1>
+        <div className="flex flex-col gap-3">
+        <h1 className="font-bold text-3xl py-3">Education</h1>
         <div>
           <div className="flex align-middle gap-2 items-center">
           <h1 className="text-xl font-bold">PDEA&apos;s College Of Engineering, Manjari</h1>
@@ -91,7 +91,7 @@ export default function Home() {
         <p>High School, Minor in Computer Science</p>
         </div>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-3">
         <h1 className="font-bold text-3xl py-2">Skills</h1>
         <div>
           <div className="flex gap-3 flex-wrap">
