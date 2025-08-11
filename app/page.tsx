@@ -50,16 +50,28 @@ export default function Home() {
         <h1 className="font-bold text-3xl py-5">About</h1>
         <p>Cybersecurity enthusiast with hands-on experience in threat detection, SOC monitoring, and bug bounties for threat identification. Strong foundation in penetration testing, network forensics, and secure systems development. Passionate about solving real-world security challenges through code and automation.</p>
         </div>
-        <div>
-        <h1 className="font-bold text-3xl py-5">Work Experience</h1>
+        <div className="flex flex-col gap-5">
+        <h1 className="font-bold text-3xl py-2">Work Experience</h1>
         <div>
           <div className="flex align-middle gap-2 items-center">
-            <div>
           <h1 className="text-2xl font-bold">Presidet@CodeX Club</h1>
           <p className="bg-white/10 p-1 rounded-md">Pune,India</p>
           </div>
-          </div>
         <p>Cybersecurity enthusiast with hands-on experience in threat detection, SOC monitoring, and bug bounties for threat identification. Strong foundation in penetration testing, network forensics, and secure systems development. Passionate about solving real-world security challenges through code and automation.</p>
+        </div>
+        <div>
+          <div className="flex align-middle gap-2 items-center">
+          <h1 className="text-2xl font-bold">Contributor@Girlscript summer of code</h1>
+          <p className="bg-white/10 p-1 rounded-md">Remote</p>
+          </div>
+        <p>Contributed to various open-source projects, demonstrating technical skills. Ranked #841 among 40,000+ Global Coders.</p>
+        </div>
+        <div>
+          <div className="flex align-middle gap-2 items-center">
+          <h1 className="text-2xl font-bold">IBM SkillsBuild AI/ML Intern@EduNet Foundation</h1>
+          <p className="bg-white/10 p-1 rounded-md">Pune,India</p>
+          </div>
+        <p>Identified potential security threats and automated the identification of suspicious activities. Engineered and deployed machine learning models that increased predictive accuracy by 30%, utilizing Python libraries such as TensorFlow and scikit-learn.</p>
         </div>
         </div>
 
