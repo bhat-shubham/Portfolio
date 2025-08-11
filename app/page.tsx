@@ -1,7 +1,6 @@
 // import Image from "next/image";
 
 import Link from "next/link"
-import { Space_Mono } from 'next/font/google'
 export default function Home() {
   return (
 <div className="min-h-screen w-full bg-[#020617] relative">
