@@ -50,6 +50,18 @@ export default function Home() {
         <h1 className="font-bold text-3xl py-5">About</h1>
         <p>Cybersecurity enthusiast with hands-on experience in threat detection, SOC monitoring, and bug bounties for threat identification. Strong foundation in penetration testing, network forensics, and secure systems development. Passionate about solving real-world security challenges through code and automation.</p>
         </div>
+        <div>
+        <h1 className="font-bold text-3xl py-5">Work Experience</h1>
+        <div>
+          <div className="flex align-middle gap-2 items-center">
+            <div>
+          <h1 className="text-2xl font-bold">Presidet@CodeX Club</h1>
+          <p className="bg-white/10 p-1 rounded-md">Pune,India</p>
+          </div>
+          </div>
+        <p>Cybersecurity enthusiast with hands-on experience in threat detection, SOC monitoring, and bug bounties for threat identification. Strong foundation in penetration testing, network forensics, and secure systems development. Passionate about solving real-world security challenges through code and automation.</p>
+        </div>
+        </div>
 
         
       </div>
