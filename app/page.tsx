@@ -74,6 +74,42 @@ export default function Home() {
         <p>Identified potential security threats and automated the identification of suspicious activities. Engineered and deployed machine learning models that increased predictive accuracy by 30%, utilizing Python libraries such as TensorFlow and scikit-learn.</p>
         </div>
         </div>
+        <div className="flex flex-col gap-5">
+        <h1 className="font-bold text-3xl py-2">Education</h1>
+        <div>
+          <div className="flex align-middle gap-2 items-center">
+          <h1 className="text-2xl font-bold">PDEA&apos;s College Of Engineering, Manjari</h1>
+          <p className="bg-white/10 p-1 rounded-md">2022-2026</p>
+          </div>
+        <p>Bachelor&apos;s Of Engineering In Information Technology</p>
+        </div>
+        <div>
+          <div className="flex align-middle gap-2 items-center">
+          <h1 className="text-2xl font-bold">Kendriya Vidyalaya No.2</h1>
+          <p className="bg-white/10 p-1 rounded-md">2018-2024</p>
+          </div>
+        <p>High School, Minor in Computer Science</p>
+        </div>
+        </div>
+        <div className="flex flex-col gap-5">
+        <h1 className="font-bold text-3xl py-2">Skills</h1>
+        <div>
+          <div className="flex gap-2 flex-wrap">
+          <p className="bg-white/10 p-1 rounded-md">Vulnerability Assessment</p>
+          <p className="bg-white/10 p-1 rounded-md">Incident Response</p>
+          <p className="bg-white/10 p-1 rounded-md">Threat Intelligence</p>
+          <p className="bg-white/10 p-1 rounded-md">Log Analysis</p>
+          <p className="bg-white/10 p-1 rounded-md">SIEM</p>
+          <p className="bg-white/10 p-1 rounded-md">Penetration Testing</p>
+          <p className="bg-white/10 p-1 rounded-md">Network Forensics</p>
+          <p className="bg-white/10 p-1 rounded-md">Machine Learning</p>
+          <p className="bg-white/10 p-1 rounded-md">Python</p>
+          <p className="bg-white/10 p-1 rounded-md">FastAPI</p>
+          <p className="bg-white/10 p-1 rounded-md">NextJS</p>
+          
+          </div>        
+        </div>
+        </div>
 
         
       </div>
