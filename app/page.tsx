@@ -1,18 +1,23 @@
 // import Image from "next/image";
-
+import Particles from "@/components/ui/particles";
 import Link from "next/link"
 export default function Home() {
   return (
-<div className="min-h-screen w-full bg-[#020617] relative">
+<div className="min-h-screen w-full">
   {/* Dark Radial Glow Background */}
-  <div
-    className="inset-0 z-0"
-    style={{
-      backgroundImage: `radial-gradient(circle 500px at 50% 200px, #3e3e3e, transparent)`,
-    }}
+  <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+  <Particles
+    particleColors={['#fff0f0', '#3f5cd2']}
+    particleCount={200}
+    particleSpread={10}
+    speed={0.1}
+    particleBaseSize={100}
+    moveParticlesOnHover={false}
+    alphaParticles={false}
+    disableRotation={true}
   />
   <div className="w-full px-105">
-     <div className="z-10 font-mono flex flex-col py-10 text-white ">
+     <div className="z-20 font-mono flex flex-col py-10 text-white ">
       <div>
         <h1 className="font-bold text-3xl">Shubham Bhat</h1>
       </div>
@@ -124,6 +129,7 @@ export default function Home() {
       </div>
      </div>
      
+</div>
 </div>
 </div>
   );
