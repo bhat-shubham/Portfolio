@@ -53,12 +53,12 @@ export default function Home() {
         <h1 className="font-bold text-3xl py-5">About</h1>
         <p>Cybersecurity enthusiast with hands-on experience in threat detection, SOC monitoring, and bug bounties for threat identification. Strong foundation in penetration testing, network forensics, and secure systems development. Passionate about solving real-world security challenges through code and automation.</p>
         </div>
-                <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3">
         <h1 className="font-bold text-3xl py-3">Projects</h1>
         <div>
           <div className="flex align-middle gap-2 items-center">
           <Link href="https://netnerve.vercel.app/"><h1 className="text-xl font-bold underline">NetNerve</h1></Link>
-          <p className="bg-white/10 p-1 rounded-md">Pune,India</p>
+          {/* <p className="bg-white/10 p-1 rounded-md">Pune,India</p> */}
           </div>
         <p>Developed an AI-powered packet analyzer NetNevere that autonomously identified and mitigated real-time network threats, significantly reducing mean time to detect (MTTD) and improving overall threat response efficiency. Implemented intelligent packet analysis using deep learning to flag anomalies and potential intrusions in PCAP/CAP files, elevating the security framework and accelerating incident response.Automated protocol dissection and threat detection workflows, enabling real-time traffic categorization and reducing manual analysis efforts by over 70%. Integrated a scalable backend using FastAPI and LLaMA 3 to generate contextual summaries of packet behavior, improving interpretability for non-technical stakeholders.</p>
         </div>
