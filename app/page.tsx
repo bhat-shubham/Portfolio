@@ -15,7 +15,7 @@ export default function Home() {
     alphaParticles={true}
     disableRotation={false}
   />
-  <div className="w-full z-50 px-105">
+  <div className="w-full z-50 lg:px-105 px-5">
      <div className="z-20 font-mono flex flex-col py-10 text-white ">
       <div>
         <h1 className="font-bold text-3xl">Shubham Bhat</h1>
